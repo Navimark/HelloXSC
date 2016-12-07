@@ -36,7 +36,7 @@
     // This is an example of a performance test case.
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
-        NSInteger max = 123456789;
+        NSInteger max = 12345678;
         NSLog(@"max = %@",@(max));
         for (NSInteger i = 0; i != max ; ++i) {
             CGFloat j = i/3.333333;
