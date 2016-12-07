@@ -27,11 +27,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNj-uJ-WDj">
+                                <rect key="frame" x="145.5" y="38" width="84" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="GOGOGO"/>
+                                <connections>
+                                    <action selector="pushAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YZf-hl-cWe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="wNj-uJ-WDj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Em7-Yx-gzt"/>
                             <constraint firstItem="V0N-Wv-bXT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="INK-cl-Wrx"/>
                             <constraint firstItem="V0N-Wv-bXT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="i3J-7I-EMi"/>
+                            <constraint firstItem="wNj-uJ-WDj" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="18" id="xZC-yU-7Md"/>
                         </constraints>
                     </view>
                 </viewController>

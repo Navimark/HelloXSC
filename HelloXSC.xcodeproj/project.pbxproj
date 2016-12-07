@@ -15,6 +15,8 @@
 		2198E4201DF7BB3200E3E6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2198E41E1DF7BB3200E3E6DC /* LaunchScreen.storyboard */; };
 		2198E42B1DF7BB3200E3E6DC /* HelloXSCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2198E42A1DF7BB3200E3E6DC /* HelloXSCTests.m */; };
 		2198E4361DF7BB3200E3E6DC /* HelloXSCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2198E4351DF7BB3200E3E6DC /* HelloXSCUITests.m */; };
+		2198E4461DF8293900E3E6DC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2198E4441DF8293900E3E6DC /* TestViewController.m */; };
+		2198E4471DF8293900E3E6DC /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2198E4451DF8293900E3E6DC /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		2198E4311DF7BB3200E3E6DC /* HelloXSCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloXSCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2198E4351DF7BB3200E3E6DC /* HelloXSCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloXSCUITests.m; sourceTree = "<group>"; };
 		2198E4371DF7BB3200E3E6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2198E4431DF8293900E3E6DC /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		2198E4441DF8293900E3E6DC /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		2198E4451DF8293900E3E6DC /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				2198E4141DF7BB3200E3E6DC /* AppDelegate.m */,
 				2198E4161DF7BB3200E3E6DC /* ViewController.h */,
 				2198E4171DF7BB3200E3E6DC /* ViewController.m */,
+				2198E4431DF8293900E3E6DC /* TestViewController.h */,
+				2198E4441DF8293900E3E6DC /* TestViewController.m */,
+				2198E4451DF8293900E3E6DC /* TestViewController.xib */,
 				2198E4191DF7BB3200E3E6DC /* Main.storyboard */,
 				2198E41C1DF7BB3200E3E6DC /* Assets.xcassets */,
 				2198E41E1DF7BB3200E3E6DC /* LaunchScreen.storyboard */,
@@ -251,6 +259,7 @@
 			files = (
 				2198E4201DF7BB3200E3E6DC /* LaunchScreen.storyboard in Resources */,
 				2198E41D1DF7BB3200E3E6DC /* Assets.xcassets in Resources */,
+				2198E4471DF8293900E3E6DC /* TestViewController.xib in Resources */,
 				2198E41B1DF7BB3200E3E6DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +287,7 @@
 			files = (
 				2198E4181DF7BB3200E3E6DC /* ViewController.m in Sources */,
 				2198E4151DF7BB3200E3E6DC /* AppDelegate.m in Sources */,
+				2198E4461DF8293900E3E6DC /* TestViewController.m in Sources */,
 				2198E4121DF7BB3200E3E6DC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
