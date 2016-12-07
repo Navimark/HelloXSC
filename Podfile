@@ -6,7 +6,6 @@ target 'HelloXSC' do
   # use_frameworks!
 pod 'YYText', '~> 1.0.7'
   # Pods for HelloXSC
-
   target 'HelloXSCTests' do
     inherit! :search_paths
     # Pods for testing
