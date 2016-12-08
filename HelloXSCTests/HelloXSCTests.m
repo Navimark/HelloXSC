@@ -36,7 +36,7 @@
     // This is an example of a performance test case.
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
-        [NSThread sleepForTimeInterval:0.2];
+        [NSThread sleepForTimeInterval:0.1];
     }];
 }
 
