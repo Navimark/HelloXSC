@@ -15,8 +15,8 @@ xcuserdata
 *.moved-aside
 DerivedData
 *.xcuserstate
-*.xcworkspace
-!default.xcworkspace
+#*.xcworkspace
+#!default.xcworkspace
 main.js
 /main.js
 fastlane/report.xml

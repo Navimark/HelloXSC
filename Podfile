@@ -4,7 +4,8 @@
 target 'HelloXSC' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
-pod 'YYText', '~> 1.0.7'
+    pod 'YYText', '~> 1.0.7'
+#    pod 'XcodeServerSDK', '~> 0.7.1'
   # Pods for HelloXSC
   target 'HelloXSCTests' do
     inherit! :search_paths
