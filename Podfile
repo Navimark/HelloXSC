@@ -5,7 +5,7 @@ target 'HelloXSC' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
     pod 'YYText', '~> 1.0.7'
-    pod 'RMXNetworkKit', :git => 'git@git.moumentei.com:chenzheng/RMXNetworkKit.git'
+#    pod 'RMXNetworkKit', :git => 'git@git.moumentei.com:chenzheng/RMXNetworkKit.git'
 #    pod 'XcodeServerSDK', '~> 0.7.1'
   # Pods for HelloXSC
   target 'HelloXSCTests' do
