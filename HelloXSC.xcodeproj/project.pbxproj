@@ -264,8 +264,7 @@
 				TargetAttributes = {
 					2198E40C1DF7BB3200E3E6DC = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = B3C9PH5883;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					2198E4251DF7BB3200E3E6DC = {
 						CreatedOnToolsVersion = 8.1;
@@ -623,7 +622,7 @@
 			baseConfigurationReference = C8A23EF7E49997C8B76DEF41 /* Pods-HelloXSC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B3C9PH5883;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HelloXSC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.remix.yl;
@@ -636,7 +635,7 @@
 			baseConfigurationReference = C12CC548779D8F1A219553B4 /* Pods-HelloXSC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B3C9PH5883;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HelloXSC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.remix.yl;
